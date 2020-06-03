@@ -14,8 +14,14 @@
 // create the new branch from updated master
 (master) $ git checkout -b feature/my_branch
 
-// Switched to a new branch 'xyz', then push the new branch to github
+// Switched to a new branch `feature/my_branch`, then push it to github
 (feature/my_branch) $ git push origin feature/my_branch
+
+// create the new branch from `feature/my_branch`
+(feature/my_branch) $ git checkout -b feature/my_branch_v2
+
+// Switched to a new branch `feature/my_branch_v2`, then push it to github
+(feature/my_branch_v2) $ git push origin feature/my_branch_v2
 ```
 
 - Switch branch
@@ -34,7 +40,7 @@
 (master) $ 
 ```
 
-- merge update between branch
+- merge update between branches
 
 ```
 // update current master branch
@@ -55,6 +61,6 @@
 // switch back to branch master
 (feature/my_branch) $ git checkout master
 
-// merge FROM `feature/my_branch` TO `master`
+// merge FROM `feature/my_branch` TO `master`, so master will also has `hello.tx` file 
 (master) $ git merge feature/my_branch
 ```
