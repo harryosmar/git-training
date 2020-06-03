@@ -64,3 +64,22 @@
 // merge FROM `feature/my_branch` TO `master`, so master will also has `hello.tx` file 
 (master) $ git merge feature/my_branch
 ```
+
+- Tagging/Release
+
+```
+// create tag `v1.0.0` from `master` branch
+(master) $ git tag -a v1.0.0 -m "First release"
+
+// switch to tag `v1.0.0`
+(master) $ git checkout v1.0.0
+
+// push tag `v1.0.0` to github
+(master) $ git push origin v1.0.0
+
+// create new branch from tag `v1.0.0`
+((HEAD detached at v1.0.0)) $ git checkout -b feature/bugfix
+
+// Switched to a new branch 'feature/bugfix', contains the same commits with tag `v1.0.0`
+(feature/bugfix) $
+```
