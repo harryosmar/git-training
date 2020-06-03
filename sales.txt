@@ -1,3 +1,5 @@
 Sales for this week
 
 Profit : 10%
+
+Loss : 5%
