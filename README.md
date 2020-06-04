@@ -44,7 +44,7 @@
 (master) $ 
 ```
 
-#### merge update between branches
+#### Merge update between branches
 
 ![merge branch](https://github.com/harryosmar/git-training/blob/master/merge_branch.png)
 
