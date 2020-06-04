@@ -5,7 +5,7 @@
 ## Branches
 
 
-- Create branch
+#### Create branch
 
 ![create branch](https://github.com/harryosmar/git-training/blob/master/create_branch.png)
 
@@ -26,7 +26,7 @@
 (feature/my_branch_v2) $ git push origin feature/my_branch_v2
 ```
 
-- Switch branch
+#### Switch branch
 
 ![switch branch](https://github.com/harryosmar/git-training/blob/master/switch_branch.png)
 
@@ -44,7 +44,7 @@
 (master) $ 
 ```
 
-- merge update between branches
+#### merge update between branches
 
 ![merge branch](https://github.com/harryosmar/git-training/blob/master/merge_branch.png)
 
@@ -71,7 +71,7 @@
 (master) $ git merge feature/my_branch
 ```
 
-- Tagging/Release
+#### Tagging/Release
 
 ![tagging](https://github.com/harryosmar/git-training/blob/master/tagging.png)
 
