@@ -5,7 +5,7 @@
 ## Branches
 
 
-- Create branch from `master` branch
+- Create branch
 
 ![create branch](https://github.com/harryosmar/git-training/blob/master/create_branch.png)
 
