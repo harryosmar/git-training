@@ -7,6 +7,8 @@
 
 - Create branch from `master` branch
 
+![create branch](https://github.com/harryosmar/git-training/blob/master/create_branch.png)
+
 ```
 // update current master branch
 (master) $ git pull origin master
@@ -26,6 +28,8 @@
 
 - Switch branch
 
+![switch branch](https://github.com/harryosmar/git-training/blob/master/switch_branch.png)
+
 ```
 // switch to branch feature/1
 (master) $ git checkout feature/1
@@ -41,6 +45,8 @@
 ```
 
 - merge update between branches
+
+![merge branch](https://github.com/harryosmar/git-training/blob/master/merge_branch.png)
 
 ```
 // update current master branch
@@ -66,6 +72,8 @@
 ```
 
 - Tagging/Release
+
+![tagging](https://github.com/harryosmar/git-training/blob/master/tagging.png)
 
 ```
 // create tag `v1.0.0` from `master` branch
